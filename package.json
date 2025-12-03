@@ -1,21 +1,42 @@
 {
-  "name": "demo1",
+  "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "yarn install && tsc && node dist/index.js",
     "dev": "yarn install && tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "AI",
+    "AI Agents",
+    "Finance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "author": "happyboy",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
