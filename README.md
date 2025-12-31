@@ -1,12 +1,3 @@
-# Ohlcv AI
+# Typescript Project Scaffold
 
-🧠AI agents focused on processing ohlcv data structures.
-
-# Install
-
-```bash
-npm i ohlcv-ai
-```
-```bash
-yarn add ohlcv-ai
-```
+this is a typescript project scaffold.
