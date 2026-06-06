@@ -1,5 +1,5 @@
 {
-   "name": "ohlcv-ai",
+  "name": "ohlcv-ai",
   "version": "1.0.7",
   "description": "AI agents focused on processing ohlcv data structures.",
   "author": "happyboy",
@@ -18,9 +18,9 @@
   "source": "src/index.tsx",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     }
   },
   "engines": {
@@ -42,14 +42,12 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-  },
-  "dependencies": {
-  },
+  "peerDependencies": {},
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
-    "typescript":"^5.9.3",
+    "typescript": "^5.9.3",
     "cross-env": "^7.0.3",
     "eslint": "^9.17.0",
     "eslint-plugin-react": "^7.37.4",
