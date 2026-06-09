@@ -1,21 +1,21 @@
 {
-  "name": "ohlcv-ai",
-  "version": "1.0.7",
-  "description": "AI agents focused on processing ohlcv data structures.",
+  "name": "xxxx",
+  "version": "0.0.1",
+  "description": "x.",
   "author": "happyboy",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xhappyboy/ohlcv-ai.git"
+    "url": "git+https://github.com/xxx/xxx"
   },
   "bugs": {
-    "url": "https://github.com/0xhappyboy/ohlcv-ai/issues"
+    "url": "https://github.com/xxx/xxx/issues"
   },
-  "homepage": "https://github.com/0xhappyboy/ohlcv-ai",
+  "homepage": "https://github.com/xxx/xxx",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "source": "src/index.tsx",
+  "source": "src/index.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
